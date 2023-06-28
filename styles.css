@@ -1,16 +1,77 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-.main{display: flex;
-justify-content: center;
-align-items: center;}
-
-.top{border: 1px solid hsl(10, 79%, 65%); background-color: hsl(10, 79%, 65%) ;height: 100px;width: 400px; display: inline-flex; align-items: center; justify-content: center;gap: 200px;  border-radius: 20px;
-     }
-.right h5{ font-size: 18px; color: white;}
-.circle{display: inline-flex;
-justify-content: right;
+.main {
+  display: flex;
+  justify-content: center;
+  border: 1px solid hsl(27, 66%, 92%);
+  height: 500px;
+  width: 500px;
+  flex-wrap: wrap;
 }
+
+.top {
+  border: 1px solid hsl(10, 79%, 65%);
+  background-color: hsl(10, 79%, 65%);
+  height: 100px;
+  width: 400px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 200px;
+  border-radius: 20px;
+}
+.right h5 {
+  font-size: 18px;
+  color: white;
+}
+.circle {
+  display: inline-flex;
+  justify-content: right;
+}
+.right p {
+  color: rgba(255, 255, 255, 0.678);
+  font-size: 15px;
+}
+
+.right span {
+  font-size: 25px;
+  color: white;
+}
+
+.last {
+  background-color: white;
+  height: 370px;
+  width: 400px;
+  border-radius: 20px;
+  border: 25px solid white;
+}
+
+
+.rectangles { border: 1px solid rgb(253, 253, 253);
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+ align-items: flex-end;
+  
+ 
+}
+.numbers{ border-top: 1px solid rgb(199, 195, 195) ;
+  height: 60px;
+  width: 350px;
+  display:flex;
+  flex-wrap: nowrap;
+  gap: 120px;
+ }
+
+.left{display: flex; flex-direction:column; margin-top: 10px;}
+.left span{color: rgba(70, 61, 61, 0.349);}
+.left h1{font-size: 40px;}
+
+.right-1 { display: flex; align-items: flex-end; flex-direction: column; padding-top: 40px;}
+
+.color {color: rgba(70, 61, 61, 0.349);}
