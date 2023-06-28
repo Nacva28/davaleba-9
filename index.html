@@ -7,12 +7,20 @@
     <title>Document</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <body style="background-color: hsl(27, 66%, 92%); height: 100vh; display: flex;align-items: center;justify-content: center;">
+  <body
+    style="
+      background-color: hsl(27, 66%, 92%);
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    "
+  >
     <div class="main">
       <div class="top">
         <div class="right">
           <p>My balance</p>
-          <br>
+          <br />
           <span>$921.48</span>
         </div>
         <div class="circle">
@@ -30,25 +38,48 @@
         </div>
       </div>
       <div class="last">
-        <div class="top-line"><h2>Spending- Last 7 days</h2>
+        <div class="top-line">
+          <div class="border">
+            <h2>Spending- Last 7 days</h2>
+          </div>
           <div class="rectangles">
-            <div class="box">mon</div>
-            <div class="box">tue</div>
-            <div class="box">wed</div>
-            <div class="box">thu</div>
-            <div class="box">fri</div>
-            <div class="box">sat</div>
-            <div class="box">sun</div>
+            <div class="box">
+              <div class="name">mon</div>
+              <span class="bar" style="height: 45px; width: 40px"></span>
+            </div>
+            <div class="box">
+              <div class="name">tue</div>
+              <span class="bar" style="height: 100px; width: 40px"></span>
+            </div>
+            <div class="box">
+              <div class="name">wed</div>
+              <span class="bar" style="height: 130px; width: 40px"></span>
+            </div>
+            <div class="box">
+              <div class="name">thu</div>
+              <span class="bar" style="height: 80px; width: 40px"></span>
+            </div>
+            <div class="box">
+              <div class="name">fri</div>
+              <span class="bar" style="height: 60px; width: 40px"></span>
+            </div>
+            <div class="box">
+              <div class="name">sat</div>
+              <span class="bar" style="height: 110px; width: 40px"></span>
+            </div>
+            <div class="box">
+              <div class="name">sun</div>
+              <span class="bar" style="height: 70px; width: 40px"></span>
+            </div>
           </div>
         </div>
-        <br>
-          <div class="numbers">
-            <div class="left">
+        <br />
+        <div class="numbers">
+          <div class="left">
+            <span>Total this month</span>
 
-              <span>Total this month</span>
-              
-              <h1>$478.33</h1>
-            </div>
+            <h1>$478.33</h1>
+          </div>
           <div class="right-1">
             <h5>+2.4%</h5>
             <h5 class="color">from last month</h5>
